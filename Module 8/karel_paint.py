@@ -101,6 +101,7 @@ def main():
                     forward()
                     if counter > len(pix_7x7[rows]) - 2:
                         downLeft()
+                print("--",counter)
                 counter+=1
             counter = 0
 
