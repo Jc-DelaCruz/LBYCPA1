@@ -7,15 +7,15 @@ def pause():
     os.system("pause")
 
 def gpa_calculator():
-    print("nice gpa")
+    print("Loading... GPA Calculator Function ---")
     pass
 
 def flowchart():
-    print("nice flowchart daddy")
+    print("Loading... Flowchart Function ---")
     # pass
 
 def help_desk():
-    print("nice info daddy")
+    print("Loading... Help Desk Function ---")
     # pass
 
 def mainMenu():
@@ -25,7 +25,6 @@ def mainMenu():
     print("=====================")
     print()
     print("Welcome Froshies!")
-    print("Get ready for hell fuckers")
     print()
     print("1 - GPA Calculator")
     print("2 - Flowcharts")
