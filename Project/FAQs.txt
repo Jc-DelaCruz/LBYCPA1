@@ -1,0 +1,37 @@
+Q1: What is computer engineering?
+A: A brief description of computer engineering is that it is engineering applied to computers and computer-based systems, as engineering is the application of basic science ideas to the solving of problems within limits (that is, making stuff!). 
+Computer engineers, in other words, design and develop computers such as personal computers, workstations, and supercomputers. 
+They also create computer-based systems for automobiles, airlines, appliances, electronics, phones, communication networks, and a wide range of other things. 
+In computer-based systems, computer engineers often design not only the hardware but also much of the software.
+
+Q2: What set of skills do I need to become a fully-fledged computer engineer?
+A: Basic scientific and math skills are required of all scientists and engineers. They must also be able to work in groups and communicate vocally and in writing their views. 
+Computer engineers, in particular, are skilled in both hardware and software. Either one can be highlighted, depending on your interests.
+
+Q3: Do I need previous knowledge of coding to be able to enter or pass CpE?
+A: No, as a matter of fact the course makes it so that all newcomers are treated as complete beginners and as so, they will be taught as such with the basics of programming from scratch.
+
+Q4: What opportunities are there for computer engineers?
+Computer engineers are needed in both the corporate and public sectors. The military, for example, need computer experts to create sophisticated control systems. 
+Computer engineers are employed by governments, schools, and hospitals to create and manage their computers infrastructure and internal databases. 
+To design hardware such as CPUs, memory, and graphics cards, game developers require competent computer engineers. 
+The automated systems of utility corporations are maintained by teams of computer engineers.
+
+Q5: Where can I find reviewers or notes on the course's quizzes?
+A: Might we point you to the direction of the organization SYNTAX here in DLSU, they provide reviewers and notes on previous and upcoming quizzes for engineering students here in DLSU.
+Link to their website: https://dlsusyntax.wixsite.com/syntaxdlsu/reviewers.
+
+Q6: What programming languages can we learn in CpE?
+A: The languages that first-year students would be taught would be that of Python, C++, and HTML with CSS. 
+Anticipate learning more in the coming terms after, but for now those are what is to be encoutered at the start of your journey.
+
+Q7: Should I join CpE's home org ACCESS?:
+A: Ultimately, it is up to you, though by joining ACCESS you would be able to have access (heh) to a better experience here in CpE. The org consistently hosts events that you may find enticing.
+It hosts webinars which can give you more insight about different computer related industries such as the gaming industry (GGWD), tech industry (BYTE), and many other that apply CpEs discipline.
+The org also hosts events which could help sharpen the expertise that are already being taught in the course with seminars for certain topics, mostly about programming and software.
+And finally, the org hosts events which encourages all of CpE to come together and be more connected with one another, be it through gaming competitions, or movie nights, ACCESS has many ideas in mind to have everyone come together.
+If you want to know more about the org, you may visit their FB page: https://www.facebook.com/AccessDLSU
+
+Need further help? Contact DLSU directly through: https://www.dlsu.edu.ph/contact-us-new-normal/
+
+Thank you for utilizing the Froshie Companion Helpdesk! Have a blessed and wonderful stay here at DLSU! 
