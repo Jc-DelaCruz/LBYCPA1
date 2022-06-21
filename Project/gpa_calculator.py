@@ -11,8 +11,10 @@ def course_gpa_calculator():
     choices_term = ('FIRST TERM', '1ST TERM', 'FIRST', '1ST', '1',
                     'SECOND TERM', '2ND TERM', 'SECOND', '2ND', '2')
     raw_gpa = float(4.0)
-
-    print("\nWelcome to the CpE Frosh Companion course GPA calculator!")
+    clear()
+    print("=========================================================")
+    print("Welcome to the CpE Frosh Companion course GPA calculator!")
+    print("=========================================================")
     # TERM CHOOSING
     term = str(input("\nPlease choose a term: "))
     term = term.upper()
@@ -454,10 +456,12 @@ def course_gpa_calculator():
     menu = str(input("\nDo you want to return to the menu y/n? "))
     menu = menu.lower()
     if menu == 'y':
+        pause()
         course_gpa_calculator()
     elif menu == 'n':
         print("\nThank you for using the CpE Frosh Companion GPA Calculator!\n")
-        return
+        pause()
+        return 0
 
 # OVERALL or TERM GPA CALCULATOR
 # INPUT: INDIVIDUAL GPA OF EACH TERM
@@ -467,8 +471,10 @@ def term_gpa_calculator():
 
     choices_term = ('FIRST TERM', '1ST TERM', 'FIRST', '1ST', '1',
                     'SECOND TERM', '2ND TERM', 'SECOND', '2ND', '2')
-
-    print("\nWelcome to the CpE Frosh Companion term GPA calculator!")
+    clear()
+    print("==========================================================")
+    print("Welcome to the CpE Frosh Companion term GPA calculator!")
+    print("==========================================================")
 
     # CHOOSING OF TERM
     term = str(input("\nPlease choose a term: "))
@@ -629,12 +635,12 @@ def gpa_menu():
         
     if choice == '1':
         term_gpa_calculator()
-        # flowchartExit()
+        flowchartExit()
 
 
     elif choice == '2':
         course_gpa_calculator()
-        # flowchartExit()
+        flowchartExit()
 
 
     elif choice == '3':
