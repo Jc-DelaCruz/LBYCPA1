@@ -114,9 +114,8 @@ def help_desk():
         print("Invalid Input")
         help_desk()
 
-
 def calculatorExit():
-    print()
+    print("")
     print("=========================")
     print(" Please Choose an Option ")
     print("=========================")
@@ -138,22 +137,14 @@ def calculatorExit():
     elif ch == '3':
         print("Thank you for using the program!")
         pause()
-    else:
-        print("Invalid Input... Try Again...")
-        pause()
-        calculatorExit()
-
 # T E R M  C A L C U L A T O R
-
-
 def term_gpa_calculator():
 
     choices_term = ('FIRST TERM', '1ST TERM', 'FIRST', '1ST', '1',
                     'SECOND TERM', '2ND TERM', 'SECOND', '2ND', '2')
-    clear()
-    print("============================================================")
-    print("Welcome to the CpE Frosh Companion term GPA calculator!")
-    print("============================================================")
+
+    print("\nWelcome to the CpE Frosh Companion term GPA calculator!")
+
     # CHOOSING OF TERM
     term = str(input("\nPlease choose a term: "))
     term = term.upper()
@@ -308,10 +299,7 @@ def term_gpa_calculator():
                 print("\nInvalid Input!")
         else:
             print("Invalid Input!")
-
 # C O U R S E  C A L C U L A T O R
-
-
 def course_gpa_calculator():
 
     choices_1st = ('FNDMATH', 'BASPHYS', 'BASCHEM', 'FNDSTAT', 'GEARTAP')
@@ -321,10 +309,8 @@ def course_gpa_calculator():
     choices_term = ('FIRST TERM', '1ST TERM', 'FIRST', '1ST', '1',
                     'SECOND TERM', '2ND TERM', 'SECOND', '2ND', '2')
     raw_gpa = float(4.0)
-    clear()
-    print("============================================================")
+
     print("\nWelcome to the CpE Frosh Companion course GPA calculator!")
-    print("============================================================")
     # TERM CHOOSING
     term = str(input("\nPlease choose a term: "))
     term = term.upper()
@@ -772,8 +758,6 @@ def course_gpa_calculator():
                 print("Invalid Course Code")
     else:
         print("\nInvalid Input!")
-
-
 # M A I N   F U N C T I O N
 def gpa_calculator():
     clear()
@@ -781,10 +765,10 @@ def gpa_calculator():
     print("=========================")
     print("         MENU            ")
     print("=========================")
-    print("1 - Term GPA Calculator")
-    print("2 - Course GPA Calculator")
-    print("3 - Return to Main Menu")
-    print("4 - Exit\n")
+    print("(1) Term GPA Calculator")
+    print("(2) Course GPA Calculator")
+    print("(3) Return to Main Menu")
+    print("(4) Exit\n")
 
     calc_choice = str(input("\nChoose an option: "))
     if calc_choice == '1':
@@ -802,7 +786,8 @@ def gpa_calculator():
         return 0
     else:
         print("\nInvalid Input!\n")
-        calculatorExit()
+
+    calculatorExit()
 
 def flowchartExit():
     print()
@@ -873,7 +858,6 @@ def flowchart():
         print("Invalid Input... Try Again..")
         pause()
         flowchart()
-    # pass
 
 def mainMenu():
     clear()
@@ -906,7 +890,6 @@ def mainMenu():
         print("Invalid Input Try again...")
         pause()
         mainMenu()
-    
 
 def register():
     clear()
