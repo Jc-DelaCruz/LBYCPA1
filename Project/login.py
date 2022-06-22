@@ -27,6 +27,10 @@ def helpdesk_exit():
     elif ch == '3':
         print("Thank you for using the program!")
         pause()
+    else:
+        print("Invalid Input... Try Again..")
+        pause()
+        helpdesk_exit()
 
 def help_desk():
     seperator1 = "="*13
@@ -112,6 +116,7 @@ def help_desk():
 
 
 def calculatorExit():
+    print()
     print("=========================")
     print(" Please Choose an Option ")
     print("=========================")
@@ -133,6 +138,10 @@ def calculatorExit():
     elif ch == '3':
         print("Thank you for using the program!")
         pause()
+    else:
+        print("Invalid Input... Try Again...")
+        pause()
+        calculatorExit()
 
 # T E R M  C A L C U L A T O R
 
@@ -793,14 +802,14 @@ def gpa_calculator():
         return 0
     else:
         print("\nInvalid Input!\n")
-    calculatorExit()
+        calculatorExit()
 
 def flowchartExit():
     print()
     print("Do you want to view other Flowcharts?")
-    print("1 - Flowcharts Restart")
+    print("1 - View Flowcharts again")
     print("2 - Main Menu")
-    print("2 - Exit")
+    print("3 - Exit")
     while True:
         print()
         ch = input("Choose a Term: ")
@@ -815,6 +824,10 @@ def flowchartExit():
     elif ch == '3':
         print("Thank you for using the program!")
         pause()
+    else:
+        print("Invalid Input... Try Again")
+        pause()
+        flowchartExit()
 
 def flowchart():
     clear()
